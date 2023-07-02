@@ -1,0 +1,101 @@
+{
+  "testnet": {
+    "presale": {
+      "address": "0xc7BeFD932B48a69Ee3941022379611f4E3944af1",
+      "abi": "Presale.json"
+    },
+    "accounts": {
+      "address": "0x6bF7f40e9899960db94BaB12d7fE5fA4f4eE72EA",
+      "abi": "Accounts.json"
+    },
+    "stakingpool": {
+      "address": "0x35476218f61250C8b6926995634aD176Fa3F924B",
+      "abi": "StakingPool.json"
+    },
+    "exchange": {
+      "address": "0x7010ee927D8c2aCC7Be780ef565BB71d83EacFFA",
+      "abi": "Exchange.json"
+    },
+    "tokens": {
+      "KDSK": {
+        "address": "0x23C5866f03Ef05F2B6DFe5aAFF7557800FF13D34",
+        "name": "Kudisika",
+        "abi": "Kudisika.json"
+      },
+      "stKDSK": {
+        "address": "0x750Eb73A6f24158152EB3e93d7aE4b64E5F7B38f",
+        "name": "Staked KDSK",
+        "abi": "StakedKDSK.json"
+      },
+      "KUSD": {
+        "address": "0x3E4e51A1C59A7eB34E6B64398DF313Cf7e45D6AB",
+        "name": "Kudisika USD",
+        "abi": "KudisikaUSD.json"
+      },
+      "SIKA": {
+        "address": "0xF3c195e85dd2E31497D6897969EDB5c8AFe8F8e9",
+        "name": "Sika",
+        "abi": "Sika.json"
+      },
+      "USDC": {
+        "address": "0xf8616348fB444479BC84F65F61c410843407860D",
+        "name": "USD Coin",
+        "abi": "ERC20.json"
+      },
+      "USDT": {
+        "address": "0x5dAf7Aee05367f7eBCB86B1EcfbbD9678bB1Ef7f",
+        "name": "Tether",
+        "abi": "ERC20.json"
+      }
+    },
+    "tokenExchangeSelect": ["SIKA","KUSD","USDT"],
+    "cashExchangeSelect": ["SIKA"]
+  },
+  "mainnet": {
+    "presale": {
+      "address": "",
+      "abi": "Presale.json"
+    },
+    "accounts": {
+      "address": "",
+      "abi": "Accounts.json"
+    },
+    "exchange": {
+      "address": "",
+      "abi": "Exchange.json"
+    },
+    "stakingpool": {
+      "address": "",
+      "abi": "StakingPool.json"
+    },
+    "tokens": {
+      "KDSK": {
+        "address": "",
+        "name": "Kudisika",
+        "abi": "Kudisika.json"
+      },
+      "stKDSK": {
+        "address": "",
+        "name": "Staked KDSK",
+        "abi": "StakedKDSK.json"
+      },
+      "KUSD": {
+        "address": "",
+        "name": "Kudisika USD",
+        "abi": "KudisikaUSD.json"
+      },
+      "SIKA": {
+        "address": "",
+        "name": "Sika",
+        "abi": "Sika.json"
+      },
+      "USDC": {
+        "address": "",
+        "name": "USD Coin",
+        "abi": "ERC20.json"
+      }
+    },
+    "tokenExchangeSelect": ["SIKA","KUSD","USDC"],
+    "cashExchangeSelect": ["SIKA"]
+  }
+}
