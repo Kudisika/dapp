@@ -1,41 +1,50 @@
 {
   "testnet": {
-    "presale": {
-      "address": "0xc7BeFD932B48a69Ee3941022379611f4E3944af1",
-      "abi": "Presale.json"
-    },
     "accounts": {
-      "address": "0x6bF7f40e9899960db94BaB12d7fE5fA4f4eE72EA",
+      "address": "0x21397772941204eD3002c42b4268AFb7DAaFC5C6",
       "abi": "Accounts.json"
     },
+    "exchange": {
+      "address": "0xf9A85092af152CB172DaD7866f053Dd6ADCA76eE",
+      "abi": "Exchange.json"
+    },
     "stakingpool": {
-      "address": "0x35476218f61250C8b6926995634aD176Fa3F924B",
+      "address": "0x3d924fD48055422F72885a3dbA316259fC4aB2D1",
       "abi": "StakingPool.json"
     },
-    "exchange": {
-      "address": "0x7010ee927D8c2aCC7Be780ef565BB71d83EacFFA",
-      "abi": "Exchange.json"
+    "presale": {
+      "address": "0x6bE355CE8fD4Da6A60d9FB9dd025dFF9D7708a22",
+      "abi": "Presale.json"
+    },
+    "growthearn": {
+      "address": "0xEc72C24798E80524bBF2b5B5aC1BfcECBE2c1da0",
+      "abi": "GrowthEarn.json"
     },
     "tokens": {
       "KDSK": {
-        "address": "0x23C5866f03Ef05F2B6DFe5aAFF7557800FF13D34",
+        "address": "0x5598A5f87b9cFdD189Cccd03DcFe5030cA5337C7",
         "name": "Kudisika",
         "abi": "Kudisika.json"
       },
       "stKDSK": {
-        "address": "0x750Eb73A6f24158152EB3e93d7aE4b64E5F7B38f",
+        "address": "0x9b2A8c2e5bDCf23c353E4585764713DE5721313A",
         "name": "Staked KDSK",
         "abi": "StakedKDSK.json"
       },
       "KUSD": {
-        "address": "0x3E4e51A1C59A7eB34E6B64398DF313Cf7e45D6AB",
+        "address": "0x93FB861e8e93B8E25B907C67e259A9Ba799d8A36",
         "name": "Kudisika USD",
         "abi": "KudisikaUSD.json"
       },
       "SIKA": {
-        "address": "0xF3c195e85dd2E31497D6897969EDB5c8AFe8F8e9",
+        "address": "0x169fFA7d84e44cD80cdC770687e1A315Cb62e417",
         "name": "Sika",
         "abi": "Sika.json"
+      },
+      "geSIKA": {
+        "address": "0x308B6C4BB7aF18fAd022bD1191579Dd12dE4b062",
+        "name": "Growth Earn SIKA",
+        "abi": "GrowthEarnSIKA.json"
       },
       "USDC": {
         "address": "0xf8616348fB444479BC84F65F61c410843407860D",
